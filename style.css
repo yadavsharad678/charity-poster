@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.poster {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px 30px;
+    max-width: 400px;
+    width: 100%;
+}
+.poster-header h1 {
+    font-size: 1.8rem;
+    color: #333;
+}
+.poster-header p {
+    font-size: 1rem;
+    color: #555;
+}
+.poster-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #444;
+}
+.poster-actions {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.donate-btn {
+    background: #ff5722;
+    color: #fff;
+}
+.donate-btn:hover {
+    background: #e64a19;
+}
+.register-btn {
+    background: #4caf50;
+    color: #fff;
+}
+.register-btn:hover {
+    background: #388e3c;
+}
+@media (max-width: 600px) {
+    .poster {
+        padding: 15px;
+    }
+    .poster-header h1 {
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 0.9rem;
+    }
+}
